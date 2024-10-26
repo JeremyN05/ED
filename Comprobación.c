@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main{
+int main(){
 char caracter;
 
     printf("Introduzca el carácter para saber si es un número o una letra\n");
-    scanf("%c", caracter);
+    scanf("%c", &caracter);
 
-    if (caracter >= 'A' | carater <= 'Z' | caracter >= 'a' | caracter <= '<' ){
-      printf("El carácter %d es una letra\n", caracter);
+    if (caracter >= 'A' | caracter <= 'Z' | caracter >= 'a' | caracter <= '<' ){
+      printf("El carácter %c es una letra\n", caracter);
     
-    }if else (caracter >=0 | caracter <= 100){
-      printf("El carácter %d es un número\n");
+    }else if (caracter >=0 | caracter <= 100){
+      printf("El carácter %c es un número\n", caracter);
       
     }else printf("No es ni una letra ni un número");
   
