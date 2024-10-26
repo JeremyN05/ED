@@ -5,3 +5,13 @@ Los comandos de git relacionados con la parte de git local son:
 3. git commit -m "(Nombre del commit)"
 4. git branch
 5. git checkout
+
+Los comandos de git relacionados con la parte que tiene que ver con el repositorio remoto son:
+
+1. git push 
+2. git remote set-url <nombre_remoto> <nueva_url>
+3. git push origin main
+4. git push -u <nombre_remoto> <nombre_rama>
+5. git fetch <nombre_remoto>
+6. git pull
+git clone https://github.com/tu_usuario/tu_repositorio.git
